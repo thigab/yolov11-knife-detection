@@ -22,7 +22,22 @@ O foco do projeto foi criar uma solução **Cloud-Native** que permite inferênc
 ![Demonstração do Sistema](assets/demo_preview.gif)
 
 ---
+## Resultados e Métricas
+Desempenho do modelo durante a fase de validação:
 
+### 1. Matriz de Confusão
+Visualização dos acertos e erros do modelo por classe.
+![Matriz de Confusão](assets/confusion_matrix.png)
+
+### 2. Curvas de Aprendizado
+Evolução da perda (loss) e precisão (mAP) durante as épocas de treino.
+![Curvas de Treino](assets/results.png)
+
+### 3. Validação Visual (Batch de Teste)
+Exemplos de detecções realizadas no conjunto de validação.
+![Validação Visual](assets/val_batch0_pred.jpg)
+
+---
 ## Especificações Técnicas
 * **Modelo:** YOLOv11s (Fine-Tuning com pesos `best.pt`).
 * **Hardware:** NVIDIA Tesla T4 (16GB VRAM).
@@ -70,4 +85,5 @@ Desenvolvido por **Thiago Gabriel Da Silva Oliveira**.
 Projeto de portfólio focado em Engenharia de Dados e Visão Computacional.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thigab)
+
 

@@ -19,7 +19,10 @@ O foco do projeto foi criar uma solução **Cloud-Native** que permite inferênc
 ---
 
 ## Demonstração
-![Demonstração do Sistema](assets/demo_preview.gif)
+<div align="center">
+  <img src="assets/demo_preview.gif" alt="Demonstração do Sistema" width="80%">
+</div>
+<br>
 
 ---
 ## Resultados e Métricas
@@ -85,5 +88,6 @@ Desenvolvido por **Thiago Gabriel Da Silva Oliveira**.
 Projeto de portfólio focado em Engenharia de Dados e Visão Computacional.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thigab)
+
 
 

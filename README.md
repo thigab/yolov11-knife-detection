@@ -13,7 +13,6 @@ Este projeto apresenta um sistema de visão computacional para detecção de arm
 O foco do projeto foi criar uma solução **Cloud-Native** que permite inferência acelerada por GPU (Tesla T4) sem necessidade de instalação local complexa, utilizando uma ponte JavaScript-Python para captura de vídeo.
 
 ### Destaques Técnicos
-* **Unificação de Taxonomia:** Implementação de lógica de pós-processamento que intercepta as detecções do modelo e unifica múltiplas classes de treinamento (ex: `knife`, `kitchen-knife`) em uma única classe alerta: **"Faca"**.
 * **Filtragem de Ruído:** Definição de limiar de confiança (`conf > 0.40`) ajustado empiricamente para eliminar falsos positivos comuns em ambientes domésticos.
 * **Inferência Híbrida:** Pipeline customizado que integra o kernel Python do Colab com a API de mídia do navegador, permitindo processamento de vídeo em tempo real na nuvem.
 
@@ -71,3 +70,4 @@ Desenvolvido por **Thiago Gabriel Da Silva Oliveira**.
 Projeto de portfólio focado em Engenharia de Dados e Visão Computacional.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thigab)
+
